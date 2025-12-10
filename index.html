@@ -3,43 +3,136 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BibleBuzz — A Fresh Way to Experience God's Word</title>
+  <title>BibleBuzz — Experience God's Word in a Modern Way</title>
+
+  <!-- Clean Google Font similar to Legend fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
   <style>
     body {
-      font-family: Arial, sans-serif;
+      margin: 0;
+      font-family: "Inter", sans-serif;
+      background: #f9f8fe;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
       text-align: center;
-      padding: 40px;
-      background: #faf7ff;
-      color: #333;
+      padding: 60px 20px 30px;
     }
-    h1 { color: #4a2fa4; font-size: 40px; }
-    .container { max-width: 700px; margin: auto; }
-    img { width: 180px; margin: 20px 0; }
-    a.button {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 24px;
-      background: #4a2fa4;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 8px;
+
+    header img {
+      width: 120px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin: 0;
+      font-weight: 700;
+      color: #4a3aff;
+    }
+
+    p.subtitle {
       font-size: 18px;
+      color: #444;
+      margin-top: 10px;
     }
+
+    .section {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .feature-box {
+      background: white;
+      padding: 30px;
+      margin: 20px 0;
+      border-radius: 18px;
+      box-shadow: 0px 4px 20px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 12px;
+      color: #4335f2;
+    }
+
+    .appstore-btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 14px 28px;
+      background: #4335f2;
+      color: white;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: 600;
+    }
+
+    footer {
+      margin-top: 80px;
+      padding: 40px 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+    }
+
+    footer a {
+      color: #4335f2;
+      text-decoration: none;
+    }
+
   </style>
 </head>
+
 <body>
 
-  <div class="container">
-    <img src="logo.png" alt="BibleBuzz logo" />
+  <header>
+    <img src="icon.png" alt="BibleBuzz Logo">
     <h1>BibleBuzz</h1>
-    <p>A joyful and modern way to explore Bible verses, verse stories, prayers, and faith challenges.</p>
+    <p class="subtitle">A joyful and modern way to explore Bible verses, stories, prayers & spiritual growth.</p>
+  </header>
 
-    <p>Stay inspired every day with verse of the day, engaging reels, community prayers, testimonials, and daily spiritual quests.</p>
+  <div class="section">
+    <div class="feature-box">
+      <h2>Verse Stories (Like Insta Stories)</h2>
+      <p>Swipe through beautiful, visual scripture stories designed to uplift your spirit every day.</p>
+    </div>
 
-    <a class="button" href="#">Download on the App Store</a>
+    <div class="feature-box">
+      <h2>Verse Reels</h2>
+      <p>Short, powerful verse videos you can like, comment, and save to revisit anytime.</p>
+    </div>
 
-    <p style="margin-top: 40px;">Need help? Visit <a href="support.html">Support</a></p>
+    <div class="feature-box">
+      <h2>Prayer & Testimonial Wall</h2>
+      <p>Share your prayers, read testimonies, and get support from a caring faith community.</p>
+    </div>
+
+    <div class="feature-box">
+      <h2>Verse of the Day</h2>
+      <p>Receive a fresh, inspiring verse every morning to strengthen your walk with Christ.</p>
+    </div>
+
+    <div class="feature-box">
+      <h2>Quests & Badges</h2>
+      <p>Complete joyful spiritual challenges and earn badges as you grow in faith.</p>
+    </div>
+
+    <a class="appstore-btn" href="#">
+      Download on the App Store
+    </a>
   </div>
+
+  <footer>
+    <p>Need help? Visit our <a href="support.html">Support Page</a></p>
+    <p>© 2025 BibleBuzz. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
